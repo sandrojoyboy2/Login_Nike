@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blur{
+    background-color: #7FA3E9;
+    width: 573px;
+    padding: 0 0 280px;
+    filter: blur(190px);
+    position: relative;
+    border-radius: 100%;
+}
+.topo_blur{
+    position: absolute;
+    top: 0;
+}
+.all_1 > article{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+.all_1 > article > h1{
+    margin-top: -36px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.all_1 {
+    position: relative;
+}
+.all_1 > img{
+    position: absolute;
+    top: 4px;
+    left: -85px;
+}
+
+.input-container {
+    position: relative;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .input-container input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    font-size: 12px;
+    padding: 8px 0;
+    outline: none;
+    background-color:  #7fa2e900;
+    
+  }
+  .input-container input::placeholder {
+    color: #aaa;
+  }
+  .link_a  a{
+    display: flex;
+    padding-left: 20em;
+    font-size: 12px;
+    color: #0000009f;
+
+  }
+
+  section > button{
+
+    background-color: #7FA3E9;
+    border: none;
+    color: #fff;
+    padding: 12px 154px;
+    border-radius: 50px;
+    margin-top: 2em;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  section > button:hover{
+        background-color: #5c7ab5;
+        transition: 0.5s;
+    
+      }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 2em;
+
+    
+  }
+  
+  .divider-line {
+    flex-grow: 1;
+    height: 0.1px;
+    background-color: #0000001d;
+
+  }
+  .divider-text {
+    padding: 0 10px;
+    white-space: nowrap;
+    font-size: 11px;
+}
+.second_button{
+  display: flex;
+    justify-content: space-around;
+}
+.second_button img{
+  width: 24px;
+  margin-bottom: -5px; 
+}
+  .second_button > button{
+    background-color: #7fa2e9;
+    border: none;
+    color: #fff;
+    padding: 12px 90px;
+    border-radius: 50px;
+    margin-top: 2em;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .second_button > button:hover{
+    background-color: #5c7ab5;
+    transition: 0.5s;
+
+  }
+  
+  main > span{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+  }
+  main > span a{
+    color: #0000009f;
+
+  }
+  
